@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="assets/style/all.scss">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+        <div class="logo">DOYOGA</div>
+        <ul class="menu">
+            <li><a href="#">課程介紹</a></li>
+            <li><a href="#">瑜珈空間</a></li>
+            <li><a href="#">當月課表</a></li>
+        </ul>
+        <ul class="menubtn">
+            <li><a href="#">立即預約</a></li>
+            <li><a href="#">聯絡我們</a></li>
+        </ul>
+        <div class="mobilemenubtn"><i class="fas fa-bars"></i></div>
+    </div>
+</header>
+
+  <%- contents %>
+
+  <footer class="footer">
+    <div class="container">
+        <div class="topfooter">
+            <h2 class="colorwhite">現在訂閱，獲得課程優惠碼！</h2>
+            <div class="enewslettergroup"><input type="email" name="email" id="email" class="emailinput" placeholder="輸入您的電子信箱"><button class="btnsubscribe">訂閱</button></div>
+        </div>
+    </div>
+    <div class="footerline"></div>
+    <div class="container">
+            <div class="bottomfooter pt-1 pb-3">
+                <ul class="footermenu">
+                    <li><div class="logo whitelogo">DOYOGA</div></li>
+                    <li><a href="#">課程介紹</a></li>
+                    <li><a href="#">瑜珈空間</a></li>
+                    <li><a href="#">當月課表</a></li>
+                </ul>
+                <div class="TandC colorwhite">© 2021. All Rights Reserved.</div>
+                <ul class="socialmedia colorwhite">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-line"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
